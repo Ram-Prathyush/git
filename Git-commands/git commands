@@ -1,0 +1,8 @@
+GIT COMMANDS	:-
+git switch -c <new-branch> -->To create a new branch
+
+  git push --set-upstream origin <branch name>  --> If a new branch is created you should do this command.
+  
+  git push -->To push an commit done in vs code or in any other things like eclipse etc
+  
+  git pull -->To pull things from git
