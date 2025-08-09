@@ -26,3 +26,49 @@ _-_     First  Commands _-_
 ___---_____ Pipelines _____---___
 
 1]date | cut -- delimeter "" -- field [whatever field number you want] -
+
+///////////////// common commands \\\\\\\\\\\\\\\
+
+clear
+used to : it is used to clear the cmd prompt
+
+date
+used to : it is used to show the current date and time
+
+cal
+used to : it is used to show the current date, month and year
+
+echo
+used to : it is used to give the output as the input you type
+
+history
+used to : used to show the commands you have typed erlier
+
+! numer you want to type
+used to : it is used to toggel through the commands you have given if you type its number
+
+history -c; history -w
+used to: it is used to clear history
+
+!!
+used to : it is used to run the recent command you have given
+
+exit 
+used to : it is used to kill the cmd prompt
+
+
+
+
+------_____----- xargs command ------_____-----
+
+xargs is a command used to make a command accept a command line input
+
+
+EX - date | echo 
+    Blank
+    
+date | xargs echo
+
+saturday 09 august 2025  07:50:33 PM IST
+
+so the echo command usually dosent accept a command line input but if you use the xargs command it accepts both command line input and command line arguments
