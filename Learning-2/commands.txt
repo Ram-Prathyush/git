@@ -72,3 +72,17 @@ date | xargs echo
 saturday 09 august 2025  07:50:33 PM IST
 
 so the echo command usually dosent accept a command line input but if you use the xargs command it accepts both command line input and command line arguments
+
+
+
+------------------  Navgatng the file system ------------------------
+
+pwd - pwd (print working directory) is the abberivation of the pwd command pwd is use to which directory you are currently working
+
+ls - ls command is used to list the files in the current directory you are in ls stands for list
+
+in the list command blue text indiacates folders
+
+ls -l puts everything in the long form option
+
+ls -F puts a slash after every folder so it is easier to find
