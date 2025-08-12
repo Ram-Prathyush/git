@@ -75,7 +75,7 @@ so the echo command usually dosent accept a command line input but if you use th
 
 
 
-------------------  Navgatng the file system ------------------------
+------------------  Navgating the file system ------------------------
 
 pwd - pwd (print working directory) is the abberivation of the pwd command pwd is use to which directory you are currently working
 
@@ -86,3 +86,31 @@ in the list command blue text indiacates folders
 ls -l puts everything in the long form option
 
 ls -F puts a slash after every folder so it is easier to find
+
+ls -lh - which is a lot more human readable
+
+ls -a is a  command that allows you to see all the folders in the the directory in which you are inc. the hidden files
+
+cd - cd command is a command used for navigating through the file system easily
+the cd command helps us to the the directory. cd( change directory )
+
+ex - cd downloads
+ the directory from which you are from  to the directory of downloads
+ 
+ ~ - the tilda represents the home directory 
+ 
+ ex 
+ 
+ cd ~ 
+ it changes from the current folder you are  to the folder of home
+ 
+ or a even better way to change from the current folder is just to type cd
+ it changes back to the home folder automattically
+ 
+ there are two main hidden folder in the hidden folder section which is the . and the .. folders. The dot(.) folder simpy reffers to the current directory. And the double dot (..) folder reffer to the parent folder
+ 
+ 
+ 
+ The slash (/) folder refferes to the base folder and the /home folder refferes to  the folder below your own home folder .. the home folder of the computer more than yours
+ 
+ 
