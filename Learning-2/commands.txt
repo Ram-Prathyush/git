@@ -113,4 +113,36 @@ ex - cd downloads
  
  The slash (/) folder refferes to the base folder and the /home folder refferes to  the folder below your own home folder .. the home folder of the computer more than yours
  
- 
+ Tab compltetion
+  
+  tab completetion is a useful extetntetion in the terminal
+  purpose - to auto complete text and save time
+  
+  example - cd /h (click the tab button)
+  
+  Result - cd /home/
+  
+  if the option had far more options than 1 option we can press the tab button twice to see the options
+  
+  ex - /home/ram/D (tab)
+  result - /home/ram/D
+  
+  ex (1) - /home/ram/doc (tab)
+  result - /home/ram/documents 
+  
+  
+  
+  so we use the tab button twice to activate the checking option
+  
+  trick -
+   
+   so we go the the folder part and right click  in the mouse so that we get a option named open terminal so it directly opens directly in the terminal
+   
+   File extentiton
+   
+   the file command - the file command is a command to uncover which type of file that you are dealing with like txt doc etc
+   
+   so if you name a file tux.png and just use the file command on it like this (file tux.png) it will tell that it is a png file but even if you change the extention to jpg it will still show png so that is point no.1
+   
+   so if you have a file named bla.ods it opens up smoothly but even if you change the extentition in bla.shablam it still opens up with the date and smoothly because
+   if it was you own made extentition it dosent recognise it so it seeks help form the linux to determine the file extetntetion by itself
