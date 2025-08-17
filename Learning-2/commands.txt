@@ -146,3 +146,27 @@ ex - cd downloads
    
    so if you have a file named bla.ods it opens up smoothly but even if you change the extentition in bla.shablam it still opens up with the date and smoothly because
    if it was you own made extentition it dosent recognise it so it seeks help form the linux to determine the file extetntetion by itself
+   
+   
+   
+   
+                                               _---____---wild-cards_----_---
+                                               
+                                               
+most used wild card is the * wildcard is goes with everything litterlally everything or nearly everything 
+
+
+Ex - so ls * it gives allllllllllllll the possible folder directories etc littrally everything in the main folder
+
+the another most used wild card is the ? wild card that matches only one character long thing 
+
+
+Ex - ls ?.txt it will only give the results which is one letter, number, expressitions etc if it has more than 1 character is gives a error
+
+
+
+and a another aupiscously selective wildcard is the square brackets ( [] ) these a more selective because they only give the availaible optiont in the brackets
+
+
+
+ex - ls [1234567890].txt and you have a file named 1.txt and it matches it and gives the result
